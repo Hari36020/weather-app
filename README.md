@@ -1,6 +1,6 @@
 # Project Title
 
-![Project Image](./path-to-your-image.jpg)
+![Project Image](https://github.com/Hari36020/weather-app/blob/main/images/Screenshot%20(1).png)
 
 ## Overview
 
