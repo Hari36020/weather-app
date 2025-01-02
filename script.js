@@ -1,4 +1,4 @@
-const apiKey = 'dfd79ba3d3895ebf2bbb44be85948c0f';
+const apiKey = '';
 var cityName = "Hyderabad";
 
 const weatherIcon = document.querySelector('.weather-icon');
