@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta,title,link tags are there in head tags -->
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+        <div class="card"> 
+            <!-- search field section -->
+            <div class="search">
+              <input type="text" placeholder="Enter the city name" id="myCityName" spellcheck="false" >
+              <button onclick="getWeatherData()"><img src="images/search.png" alt="search"></button>
+            </div>
+
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+
+            <!-- weather details section -->
+            <div class="weather">
+
+                <img src="images/rain.png" alt="rain" class="weather-icon">
+                <h5 class="weatherType">Haze</h5>
+
+
+                <h1 class="temp">
+                    20°C
+                </h1>
+                <h2 class="city">Hyderabad</h2>
+
+
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" class="humidity-icon">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="images/wind.png" class="wind-icon">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+     
+
+    </body>
+
+<script src="script.js" defer></script>
+
+</html>
